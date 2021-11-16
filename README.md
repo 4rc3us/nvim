@@ -18,4 +18,5 @@ coc-tsserver
 coc-python
 coc-prettier
 coc-discord-rpc
+coc-phpls
 ```
