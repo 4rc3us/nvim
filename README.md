@@ -13,9 +13,9 @@ Requisitos para instalar esto
 CoC Extensions:
 
 ```
-coc-emmet,
-coc-tsserver,
-coc-python,
-coc-prettier,
-coc-discord-rpc
+- coc-emmet,
+- coc-tsserver,
+- coc-python,
+- coc-prettier,
+- coc-discord-rpc
 ```
