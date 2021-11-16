@@ -1,0 +1,25 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "javascriptreact",
+    "markdown",
+    "javascript",
+    "graphql",
+    "html",
+    "yaml",
+    "json"
+  ],
+  "explorer.width": 30,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "css": "css",
+  },
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  },
+  "python.jediEnabled": false,
+}
