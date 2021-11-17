@@ -28,6 +28,8 @@ set termguicolors
 "Salir de modo insertar
 imap jk <Esc>
 imap <C-c> <Esc>
+imap cll console.log()<Esc><S-f>(a
+"imap clg 'console.log()
 "mueve bloques de codigo en modo visual o V-Line
 "Moves Blocks of code in visual mode or V-Line xnoremap K :move '<-2<CR>gv-gv xnoremap J :move '>+1<CR>gv-gv 
 xnoremap K :move '<-2<CR>gv-gv
