@@ -4,8 +4,6 @@
 "██║██║╚████║██║░░░██║░░░░░░░╚████╔╝░██║██║╚██╔╝██║
 "██║██║░╚███║██║░░░██║░░░██╗░░╚██╔╝░░██║██║░╚═╝░██║ 
 "╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
-"𝕓𝕪 𝕁𝕠𝕒𝕢𝕦𝕚𝕟 𝕍𝕒𝕣𝕖𝕝𝕒 𝕐𝕋               
-"https://www.youtube.com/channel/UCw1Ipy5_P1OL0zUJMfYC7-A					    
 
 "---------------------------------vim config---------------------------- 
 syntax on 
@@ -97,7 +95,7 @@ nmap <Leader>k :TmuxNavigateUp<CR>
 set cmdheight=1
 "let g:tokyonight_style = 'night' " available: night, storm
 "let g:tokyonight_enable_italic = 0
-colorscheme gruvbox 
+colorscheme dracula
 "set background=dark
 let g:gruvbox_contrast_dark="dark"
 "Close tags automatically
