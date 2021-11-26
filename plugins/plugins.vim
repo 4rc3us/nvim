@@ -21,6 +21,13 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 
+"Plug 'neovim/nvim-lspconfig'
+"Plug 'hrsh7th/cmp-nvim-lsp'
+"Plug 'hrsh7th/cmp-buffer'
+"Plug 'hrsh7th/cmp-path'
+"Plug 'hrsh7th/cmp-cmdline'
+"Plug 'hrsh7th/nvim-cmp'
+
 "ChadTree (Nerdtree Alternative )
 "
 "Airline
@@ -49,6 +56,13 @@ Plug 'junegunn/gv.vim'
 "Smooth Scrolling
 Plug 'psliwka/vim-smoothie'
 
+"Ranger Integration
+Plug 'kevinhwang91/rnvimr'
+
+"Fuzzy finder like fzf
+
+"Plug 'nvim-lua/plenary.nvim'
+"Plug 'nvim-telescope/telescope.nvim'
 
 "_____________________________
 call plug#end()

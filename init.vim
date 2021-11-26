@@ -43,7 +43,8 @@ vnoremap > >gv
 "source ~/AppData/Local/nvim/plugins/plug-config.vim
 source ~/.config/nvim/plugins/plugins.vim
 source ~/.config/nvim/plugins/plug-config.vim
-"source ~/AppData/Local/nvim/themes/onedark.vim
+source ~/.config/nvim/plugins/rnvimr.vim 
+"source ~/.config/nvim/plugins/nvim-cmp.vim
 "--------------------------------Plugins Config--------------------------------------------
 "save file
 "guardar archivo
@@ -100,6 +101,7 @@ colorscheme dracula
 let g:gruvbox_contrast_dark="dark"
 "Close tags automatically
 "Cerrar tags automaticamente
+"
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.js'
 
 "Custom commands--------------------------------------------------

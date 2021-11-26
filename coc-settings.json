@@ -2,6 +2,7 @@
   "coc.preferences.formatOnSaveFiletypes": [
     "css",
     "javascriptreact",
+    "typescriptreact",
     "markdown",
     "javascript",
     "graphql",
