@@ -3,6 +3,7 @@
     "css",
     "javascriptreact",
     "typescriptreact",
+    "typescript",
     "markdown",
     "javascript",
     "graphql",
@@ -25,5 +26,6 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
-  "python.jediEnabled": false
+  "python.jediEnabled": false,
+  "coc.preferences.extensionUpdateCheck": "daily"
 }

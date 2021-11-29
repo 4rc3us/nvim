@@ -1,16 +1,19 @@
 "Plugins
+"Vim Polyglot config
+
+set nocompatible
+
 call plug#begin('~/.vim/plugged')
 " Temas
 " Themes
 Plug 'morhetz/gruvbox'
 Plug 'shinchu/lightline-gruvbox.vim'
 Plug 'arcticicestudio/nord-vim'
-Plug 'sheerun/vim-polyglot'
 Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
-Plug 'ghifarit53/tokyonight-vim'
-Plug 'overcache/NeoSolarized'
+
+Plug 'sheerun/vim-polyglot'
 
 " "IDE
 Plug 'easymotion/vim-easymotion'
@@ -66,3 +69,5 @@ Plug 'kevinhwang91/rnvimr'
 
 "_____________________________
 call plug#end()
+
+lua require'colorizer'.setup()

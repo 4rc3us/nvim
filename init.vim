@@ -6,7 +6,7 @@
 "╚═╝╚═╝░░╚══╝╚═╝░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═╝░░░░░╚═╝
 
 "---------------------------------vim config---------------------------- 
-syntax on 
+syntax on
 set number 
 set mouse=a
 set clipboard=unnamed
@@ -36,6 +36,9 @@ xnoremap J :move '>+1<CR>gv-gv
 " Mejor Indentación
 vnoremap < <gv
 vnoremap > >gv
+
+set conceallevel=0
+let g:yast_host_keyword=1
 
 "-------------------------------Sources-------------------------------
 "Windows sources
@@ -80,12 +83,10 @@ nnoremap <silent> <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 " SHIFT-TAB va para atras 
 nnoremap <silent> <S-TAB> :bprevious<CR>
+
 "close buffer
 "cerrar buffer
 nmap <leader>bd :bdelete<CR>
-"--gruvbox config--
-"colorscheme onedark
-"let g:gruvbox_contrast_dark ="medium"
 
 "Tmux navigation
 nmap <Leader>h :TmuxNavigateLeft<CR>
@@ -94,14 +95,10 @@ nmap <Leader>j :TmuxNavigateDown<CR>
 nmap <Leader>k :TmuxNavigateUp<CR>
 
 set cmdheight=1
-"let g:tokyonight_style = 'night' " available: night, storm
-"let g:tokyonight_enable_italic = 0
 colorscheme dracula
-"set background=dark
-let g:gruvbox_contrast_dark="dark"
+
 "Close tags automatically
 "Cerrar tags automaticamente
-"
 let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.js'
 
 "Custom commands--------------------------------------------------
