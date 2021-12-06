@@ -2,13 +2,13 @@
 
 Requisitos para instalar esto
 
-1 Vim-Plug
+1. Vim-Plug
 
-2 Git
+2. Git
 
-3 RipGrep (Windows)
+3. RipGrep (Windows)
 
-4 nvim :)
+4. nvim :)
 
 CoC Extensions:
 
