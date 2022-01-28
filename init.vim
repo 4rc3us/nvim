@@ -95,7 +95,7 @@ nmap <Leader>j :TmuxNavigateDown<CR>
 nmap <Leader>k :TmuxNavigateUp<CR>
 
 set cmdheight=1
-colorscheme dracula
+colorscheme dracula 
 
 "Close tags automatically
 "Cerrar tags automaticamente
@@ -103,6 +103,7 @@ let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.jsx,*.js'
 
 "Custom commands--------------------------------------------------
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
+"command! -nargs=0 play :
 
 "Extesion commands------------------------------------------------
 vmap <leader>f <Plug>(coc-format-selected)

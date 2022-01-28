@@ -12,6 +12,8 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'joshdick/onedark.vim'
 Plug 'safv12/andromeda.vim'
 Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'romainl/Apprentice', {'branch': 'fancylines-and-neovim'}
+Plug 'NLKNguyen/papercolor-theme'
 
 Plug 'sheerun/vim-polyglot'
 
@@ -38,6 +40,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 "Close pairs () [] {} ''
 "Cerrar los pares () [] {} '' 
 Plug 'jiangmiao/auto-pairs'
