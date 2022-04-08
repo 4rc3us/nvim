@@ -36,10 +36,10 @@ vnoremap > >gv
 
 "-------------------------------Sources-------------------------------
 "Windows sources
-"source ~/AppData/Local/nvim/plugins/plugins.vim
-"source ~/AppData/Local/nvim/plugins/plug-config.vim
-source ~/.config/nvim/plugins/plugins.vim
-source ~/.config/nvim/plugins/plug-config.vim
+source ~/AppData/Local/nvim/plugins/plugins.vim
+source ~/AppData/Local/nvim/plugins/plug-config.vim
+"source ~/.config/nvim/plugins/plugins.vim
+"source ~/.config/nvim/plugins/plug-config.vim
 "source ~/AppData/Local/nvim/themes/onedark.vim
 "--------------------------------Plugins Config--------------------------------------------
 "save file
