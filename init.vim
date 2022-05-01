@@ -65,6 +65,8 @@ let g:indentLine_fileTypeExclude=["nerdtree"]
 "open nerdtree
 nmap <Leader>e :NERDTree<CR>
 
+"Nerd Tree automatically closes when open a file
+let NERDTreeQuitOnOpen = 1
 "open cocExplorer 
 "Buscar dos carácteres con easymotion
 "Search for two chars with easymotion
